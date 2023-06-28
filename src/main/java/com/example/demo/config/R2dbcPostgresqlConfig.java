@@ -16,4 +16,5 @@ public class R2dbcPostgresqlConfig {
         initializer.setDatabasePopulator(new ResourceDatabasePopulator(new ClassPathResource("db/schema.sql")));
         return initializer;
     }
+
 }
